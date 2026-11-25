@@ -3,9 +3,7 @@ import org.example.database.DatabaseConnection;
 import org.example.model.Product;
 
 import java.sql.*;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+
 
 
 public class GToolsRepository {

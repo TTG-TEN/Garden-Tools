@@ -1,11 +1,8 @@
 package org.example;
 
 import org.example.cli.GardenToolsCli;
-import org.example.model.Product;
 import org.example.repository.GToolsRepository;
 import org.example.service.GToolsService;
-
-import java.sql.SQLException;
 import java.util.Scanner;
 
 public class Main {
