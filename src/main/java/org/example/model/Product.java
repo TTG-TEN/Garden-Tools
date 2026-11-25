@@ -18,43 +18,38 @@ public class Product {
         this.price = price;
         this.stock = stock;
     }
-    public Product(String product, String brand, String model,
-                   String category, double price, Integer stock) {
+
+    public Product(String product, String brand, String model, String category, double price, Integer stock) { //til service
         this(null, product, brand, model, category, price, stock);
-
-
     }
 
-    public Integer ProductID() {
+    public Integer productID() {
         return productID;
-    }
-
-    public double price() {
-        return price;
     }
 
     public String product() {
         return product;
     }
 
-    public Integer stock() {
-        return stock;
-    }
-
-
     public String brand() {
         return brand;
+    }
+
+    public String model() {
+        return model;
     }
 
     public String category() {
         return category;
     }
 
-
-    public String model() {
-        return model;
+    public double price() {
+        return price;
     }
 
+    public Integer stock() {
+        return stock;
+    }
 
     @Override
     public String toString() {
@@ -69,4 +64,3 @@ public class Product {
                 '}';
     }
 }
-
